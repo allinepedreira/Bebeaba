@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B6788801E5F7C76006BFB2B /* DeviceTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B67887F1E5F7C76006BFB2B /* DeviceTypes.swift */; };
+		126A62C26F309BA4A1E0AD85 /* Pods_Bebeaba.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7F3ACA9D7B41F59E1F0557 /* Pods_Bebeaba.framework */; };
+		568B70A11E52675000942ABC /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568B70A01E52675000942ABC /* TabBarVC.swift */; };
+		56E18D9C1E4A438E0059432C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E18D9B1E4A438E0059432C /* Home.swift */; };
+		56E18DA21E4A74EA0059432C /* NewExam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E18DA11E4A74EA0059432C /* NewExam.swift */; };
+		8A17C8EB1E58690300AD2BAA /* ConfiguracoesUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A17C8EA1E58690300AD2BAA /* ConfiguracoesUsuario.swift */; };
+		8A17C8ED1E5B279600AD2BAA /* Detalhes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A17C8EC1E5B279600AD2BAA /* Detalhes.swift */; };
+		8A59182C1E4A0E4E00ED7D01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A59182B1E4A0E4E00ED7D01 /* AppDelegate.swift */; };
+		8A5918311E4A0E4E00ED7D01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A59182F1E4A0E4E00ED7D01 /* Main.storyboard */; };
+		8A5918341E4A0E4E00ED7D01 /* Bebeaba.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A5918321E4A0E4E00ED7D01 /* Bebeaba.xcdatamodeld */; };
+		8A5918361E4A0E4E00ED7D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A5918351E4A0E4E00ED7D01 /* Assets.xcassets */; };
+		8A5918391E4A0E4E00ED7D01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A5918371E4A0E4E00ED7D01 /* LaunchScreen.storyboard */; };
+		8AA99CE71E4B4A1C00BA94F0 /* Entrada.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA99CE61E4B4A1C00BA94F0 /* Entrada.swift */; };
+		8AA99CE91E4B4A4100BA94F0 /* Calendario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA99CE81E4B4A4100BA94F0 /* Calendario.swift */; };
+		8AA99CEB1E4B4AA400BA94F0 /* ExamesFeitos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA99CEA1E4B4AA400BA94F0 /* ExamesFeitos.swift */; };
+		8AA99CED1E4B4ACB00BA94F0 /* Recomendados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA99CEC1E4B4ACB00BA94F0 /* Recomendados.swift */; };
+		8AA99CEF1E4B54FF00BA94F0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA99CEE1E4B54FF00BA94F0 /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B67887F1E5F7C76006BFB2B /* DeviceTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceTypes.swift; sourceTree = "<group>"; };
+		211F67DCFBA58C4DDFBCA48D /* Pods-Bebeaba.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bebeaba.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bebeaba/Pods-Bebeaba.release.xcconfig"; sourceTree = "<group>"; };
+		4D6F3D13474A33A67C3F90DF /* Pods-Bebeaba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bebeaba.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bebeaba/Pods-Bebeaba.debug.xcconfig"; sourceTree = "<group>"; };
+		568B70A01E52675000942ABC /* TabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		56E18D9B1E4A438E0059432C /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		56E18DA11E4A74EA0059432C /* NewExam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewExam.swift; sourceTree = "<group>"; };
+		8A17C8EA1E58690300AD2BAA /* ConfiguracoesUsuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfiguracoesUsuario.swift; sourceTree = "<group>"; };
+		8A17C8EC1E5B279600AD2BAA /* Detalhes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Detalhes.swift; sourceTree = "<group>"; };
+		8A5918281E4A0E4E00ED7D01 /* Bebeaba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bebeaba.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A59182B1E4A0E4E00ED7D01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A5918301E4A0E4E00ED7D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A5918331E4A0E4E00ED7D01 /* Bebeaba.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bebeaba.xcdatamodel; sourceTree = "<group>"; };
+		8A5918351E4A0E4E00ED7D01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A5918381E4A0E4E00ED7D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A59183A1E4A0E4E00ED7D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A5918401E4A0FF900ED7D01 /* FSCalendar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FSCalendar.framework; path = "Pods/../build/Debug-iphoneos/FSCalendar/FSCalendar.framework"; sourceTree = "<group>"; };
+		8AA99CE61E4B4A1C00BA94F0 /* Entrada.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entrada.swift; sourceTree = "<group>"; };
+		8AA99CE81E4B4A4100BA94F0 /* Calendario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calendario.swift; sourceTree = "<group>"; };
+		8AA99CEA1E4B4AA400BA94F0 /* ExamesFeitos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamesFeitos.swift; sourceTree = "<group>"; };
+		8AA99CEC1E4B4ACB00BA94F0 /* Recomendados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recomendados.swift; sourceTree = "<group>"; };
+		8AA99CEE1E4B54FF00BA94F0 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		AC7F3ACA9D7B41F59E1F0557 /* Pods_Bebeaba.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bebeaba.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A5918251E4A0E4E00ED7D01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126A62C26F309BA4A1E0AD85 /* Pods_Bebeaba.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7016BD36C0B7BB9D9DCF7A98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A5918401E4A0FF900ED7D01 /* FSCalendar.framework */,
+				AC7F3ACA9D7B41F59E1F0557 /* Pods_Bebeaba.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A59181F1E4A0E4E00ED7D01 = {
+			isa = PBXGroup;
+			children = (
+				8A59182A1E4A0E4E00ED7D01 /* Bebeaba */,
+				8A5918291E4A0E4E00ED7D01 /* Products */,
+				7016BD36C0B7BB9D9DCF7A98 /* Frameworks */,
+				C5034972BEDD4C0236C3253A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8A5918291E4A0E4E00ED7D01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A5918281E4A0E4E00ED7D01 /* Bebeaba.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A59182A1E4A0E4E00ED7D01 /* Bebeaba */ = {
+			isa = PBXGroup;
+			children = (
+				8A97DD5E1E4CA297007BF3CB /* Model */,
+				8A59182B1E4A0E4E00ED7D01 /* AppDelegate.swift */,
+				8A59182F1E4A0E4E00ED7D01 /* Main.storyboard */,
+				8A5918351E4A0E4E00ED7D01 /* Assets.xcassets */,
+				8A5918371E4A0E4E00ED7D01 /* LaunchScreen.storyboard */,
+				8A59183A1E4A0E4E00ED7D01 /* Info.plist */,
+				56E18D9B1E4A438E0059432C /* Home.swift */,
+				8A5918321E4A0E4E00ED7D01 /* Bebeaba.xcdatamodeld */,
+				56E18DA11E4A74EA0059432C /* NewExam.swift */,
+				8AA99CE61E4B4A1C00BA94F0 /* Entrada.swift */,
+				8AA99CE81E4B4A4100BA94F0 /* Calendario.swift */,
+				8AA99CEA1E4B4AA400BA94F0 /* ExamesFeitos.swift */,
+				8AA99CEC1E4B4ACB00BA94F0 /* Recomendados.swift */,
+				8AA99CEE1E4B54FF00BA94F0 /* TableViewCell.swift */,
+				568B70A01E52675000942ABC /* TabBarVC.swift */,
+				8A17C8EA1E58690300AD2BAA /* ConfiguracoesUsuario.swift */,
+				8A17C8EC1E5B279600AD2BAA /* Detalhes.swift */,
+				0B67887F1E5F7C76006BFB2B /* DeviceTypes.swift */,
+			);
+			path = Bebeaba;
+			sourceTree = "<group>";
+		};
+		8A97DD5E1E4CA297007BF3CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C5034972BEDD4C0236C3253A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D6F3D13474A33A67C3F90DF /* Pods-Bebeaba.debug.xcconfig */,
+				211F67DCFBA58C4DDFBCA48D /* Pods-Bebeaba.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A5918271E4A0E4E00ED7D01 /* Bebeaba */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A59183D1E4A0E4E00ED7D01 /* Build configuration list for PBXNativeTarget "Bebeaba" */;
+			buildPhases = (
+				313DF42968DC205DE5E8ACE5 /* [CP] Check Pods Manifest.lock */,
+				8A5918241E4A0E4E00ED7D01 /* Sources */,
+				8A5918251E4A0E4E00ED7D01 /* Frameworks */,
+				8A5918261E4A0E4E00ED7D01 /* Resources */,
+				3D10A66085F746AE6E0CA2DD /* [CP] Embed Pods Frameworks */,
+				96A1CA88F908051CF7655AFF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bebeaba;
+			productName = Bebeaba;
+			productReference = 8A5918281E4A0E4E00ED7D01 /* Bebeaba.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A5918201E4A0E4E00ED7D01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Michelle Beadle";
+				TargetAttributes = {
+					8A5918271E4A0E4E00ED7D01 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8A5918231E4A0E4E00ED7D01 /* Build configuration list for PBXProject "Bebeaba" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A59181F1E4A0E4E00ED7D01;
+			productRefGroup = 8A5918291E4A0E4E00ED7D01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A5918271E4A0E4E00ED7D01 /* Bebeaba */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A5918261E4A0E4E00ED7D01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5918391E4A0E4E00ED7D01 /* LaunchScreen.storyboard in Resources */,
+				8A5918361E4A0E4E00ED7D01 /* Assets.xcassets in Resources */,
+				8A5918311E4A0E4E00ED7D01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		313DF42968DC205DE5E8ACE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3D10A66085F746AE6E0CA2DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bebeaba/Pods-Bebeaba-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96A1CA88F908051CF7655AFF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bebeaba/Pods-Bebeaba-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A5918241E4A0E4E00ED7D01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E18DA21E4A74EA0059432C /* NewExam.swift in Sources */,
+				8AA99CED1E4B4ACB00BA94F0 /* Recomendados.swift in Sources */,
+				568B70A11E52675000942ABC /* TabBarVC.swift in Sources */,
+				8A5918341E4A0E4E00ED7D01 /* Bebeaba.xcdatamodeld in Sources */,
+				8AA99CEF1E4B54FF00BA94F0 /* TableViewCell.swift in Sources */,
+				8AA99CE71E4B4A1C00BA94F0 /* Entrada.swift in Sources */,
+				56E18D9C1E4A438E0059432C /* Home.swift in Sources */,
+				8A17C8ED1E5B279600AD2BAA /* Detalhes.swift in Sources */,
+				8AA99CE91E4B4A4100BA94F0 /* Calendario.swift in Sources */,
+				8AA99CEB1E4B4AA400BA94F0 /* ExamesFeitos.swift in Sources */,
+				8A59182C1E4A0E4E00ED7D01 /* AppDelegate.swift in Sources */,
+				8A17C8EB1E58690300AD2BAA /* ConfiguracoesUsuario.swift in Sources */,
+				0B6788801E5F7C76006BFB2B /* DeviceTypes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A59182F1E4A0E4E00ED7D01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A5918301E4A0E4E00ED7D01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A5918371E4A0E4E00ED7D01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A5918381E4A0E4E00ED7D01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A59183B1E4A0E4E00ED7D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A59183C1E4A0E4E00ED7D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A59183E1E4A0E4E00ED7D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D6F3D13474A33A67C3F90DF /* Pods-Bebeaba.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/FSCalendar",
+				);
+				INFOPLIST_FILE = Bebeaba/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PUC-Rio.BabyAppNew";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8A59183F1E4A0E4E00ED7D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 211F67DCFBA58C4DDFBCA48D /* Pods-Bebeaba.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/FSCalendar",
+				);
+				INFOPLIST_FILE = Bebeaba/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PUC-Rio.BabyAppNew";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A5918231E4A0E4E00ED7D01 /* Build configuration list for PBXProject "Bebeaba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A59183B1E4A0E4E00ED7D01 /* Debug */,
+				8A59183C1E4A0E4E00ED7D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A59183D1E4A0E4E00ED7D01 /* Build configuration list for PBXNativeTarget "Bebeaba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A59183E1E4A0E4E00ED7D01 /* Debug */,
+				8A59183F1E4A0E4E00ED7D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8A5918321E4A0E4E00ED7D01 /* Bebeaba.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8A5918331E4A0E4E00ED7D01 /* Bebeaba.xcdatamodel */,
+			);
+			currentVersion = 8A5918331E4A0E4E00ED7D01 /* Bebeaba.xcdatamodel */;
+			path = Bebeaba.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8A5918201E4A0E4E00ED7D01 /* Project object */;
+}
